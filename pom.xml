@@ -39,12 +39,12 @@
 	</dependencies>
 	<distributionManagement>
 	<snapshotRepository>
-		<id></id>
-		<url></url>
+	          <id>nexus</id>
+		<url>http://15.206.165.155:8081/repository/my-app-snapshot/ </url>
 	</snapshotRepository>
 	<repository>
-	<id></id>
-	<url></url>
+	<id>nexus</id>
+	<url>http://15.206.165.155:8081/repository/my-app-release/</url>
 	</repository>
 	</distributionManagement>
 	<properties>
