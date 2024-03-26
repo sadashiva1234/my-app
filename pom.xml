@@ -37,7 +37,7 @@
 		    <version>5.2.0</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
+<!--	<distributionManagement>
 	<snapshotRepository>
 	          <id>nexus</id>
 		<url>http://15.206.165.155:8081/repository/my-app-snapshot/ </url>
@@ -46,7 +46,7 @@
 	<id>nexus</id>
 	<url>http://15.206.165.155:8081/repository/my-app-release/</url>
 	</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 	<properties>
    		<maven.compiler.source>7</maven.compiler.source>
    		<maven.compiler.target>1.7</maven.compiler.target>
